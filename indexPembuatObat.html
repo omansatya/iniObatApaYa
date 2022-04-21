@@ -18,41 +18,41 @@
                         <form class="requires-validation" novalidate>
                             <div class="col-md-12">
                                 Nama Obat
-                               <input class="form-control" type="NamaObat" name="obat" placeholder="Nama Obat" required>
+                               <input id="addNamaObat" class="form-control" type="NamaObat" name="obat" placeholder="Nama Obat" required>
                             </div>
 
                             <div class="col-md-12">
                                 Jenis Obat
-                                <input class="form-control" type="JenisObat" name="JenisObat" placeholder="Jenis Obat" required>
+                                <input id="addJenisObat" class="form-control" type="JenisObat" name="JenisObat" placeholder="Jenis Obat" required>
                             </div>
 
                             <div class="col-md-12">
                                 Index Obat
-                                <input class="form-control" type="IndexObat" name="IndexObat" placeholder="Index Obat" required>
+                                <input id="addIndexObat" class="form-control" type="IndexObat" name="IndexObat" placeholder="Index Obat" required>
                             </div>
                             
                             <div class="col-md-12"> 
                                 Bentuk Obat
-                                <input class="form-control" type="BentukObat" name="BentukObat" placeholder="Bentuk Obat" required>
+                                <input id="addBentukObat" class="form-control" type="BentukObat" name="BentukObat" placeholder="Bentuk Obat" required>
                             </div>
 
                            <div class="col-md-12">
                                 Warna Obat
-                               <input class="form-control" type="WarnaObat" name="WarnaObat" placeholder=" Warna Obat" required>
+                               <input id="addWarnaObat" class="form-control" type="WarnaObat" name="WarnaObat" placeholder=" Warna Obat" required>
                            </div>
 
                            <div class="col-md-12">
                             Manfaat Obat
-                            <input class="form-control" type="ManfaatObat" name="ManfaatObat" placeholder=" Manfaat Obat" required>
+                            <input id="addManfaatObat" class="form-control" type="ManfaatObat" name="ManfaatObat" placeholder=" Manfaat Obat" required>
                             </div>
 
                             <label class="gambar"> Gambar  </label>
-                            <input type="file" class="btn btn-secondary btn-lg" name="gambar" id="gambar "></input>
+                            <input type="file" class="btn btn-secondary btn-lg" name="gambar" id="addGambar"></input>
 
                             <br>
                                          
 
-                        <button type="button" class="btn btn-primary btn-lg">Confirm</button>
+                        <button id="tambahObatButton" type="button" class="btn btn-primary btn-lg">Confirm</button>
                         </form>
                     </div>
                 </div>
@@ -60,5 +60,6 @@
         </div>
     </div>
 
+    <script src="indexPembuatObat.js"></script>
 </body>
 </html>
