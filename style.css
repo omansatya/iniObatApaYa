@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
 
-*, body {
+*,
+body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
@@ -8,7 +9,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     background-color: #168fdf;
     overflow: hidden;
@@ -16,12 +18,12 @@ html, body {
 
 
 .form-holder {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
 
 .form-holder .form-content {
@@ -75,17 +77,20 @@ html, body {
 }
 
 
-.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+.form-content label,
+.was-validated .form-check-input:invalid~.form-check-label,
+.was-validated .form-check-input:valid~.form-check-label {
     color: #fff;
 }
 
-.form-content input[type=NamaObat], .form-content input[type=jenisObat], .form-content input[type=IndexObat], .form-content input[type = "BentukObat"] , .form-content input[type = "WarnaObat"], .form-content input[type = "ManfaatObat"], .form-content select {
+.form-content input[type=text],
+.form-content select {
     width: 100%;
     padding: 9px 20px;
     text-align: left;
     border: 0;
     outline: 0;
-    border-radius: 6px; 
+    border-radius: 6px;
     background-color: #fff;
     font-size: 15px;
     font-weight: 300;
@@ -101,22 +106,24 @@ html, body {
     text-align: left;
     border: 0;
     outline: 0;
-    color:  #8D8D8D;
+    color: #8D8D8D;
 }
 
 
-.btn-primary{
+.btn-primary {
     background-color: #6C757D;
     outline: none;
     border: 0px;
     box-shadow: none;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
     background-color: #495056;
     outline: none !important;
     border: none !important;
-     box-shadow: none;
+    box-shadow: none;
 }
 
 .form-content textarea {
@@ -139,21 +146,22 @@ html, body {
 
 }
 
-.form-content textarea:hover, .form-content textarea:focus {
+.form-content textarea:hover,
+.form-content textarea:focus {
     border: 0;
     background-color: #ebeff8;
     color: #8D8D8D;
 }
 
-.mv-up{
+.mv-up {
     margin-top: -9px !important;
     margin-bottom: 8px !important;
 }
 
-.invalid-feedback{
+.invalid-feedback {
     color: #ff606e;
 }
 
-.valid-feedback{
-   color: #2acc80;
+.valid-feedback {
+    color: #2acc80;
 }
