@@ -85,7 +85,7 @@ let listObat = [{
     inskripsi: ['Andrx', '676']
 }, 
 {
-    nama: 'olanzapine',
+    nama: 'Olanzapine',
     bentuk: 'eliptical',
     warna: 'yellow',
     manfaat: ['	Mengobati skizofrenia dan gangguan bipolar'],
