@@ -1,3 +1,4 @@
+
 let listObat = [
   {
     nama: 'Captopril',
@@ -231,8 +232,10 @@ function filterObatSpesifikasi(obat) {
   let resultWarna = []
   let resultBentuk = []
   if (penyakit) {
+    
     for (let i = 0; i < listObat.length; i++) {
       const currentMedicine = listObat[i]
+
       const currentMedicinePenyakit = currentMedicine.penyakit
       for (let j = 0; j < currentMedicinePenyakit.length; j++) {
         if (penyakit === currentMedicinePenyakit[j]) {
@@ -246,7 +249,9 @@ function filterObatSpesifikasi(obat) {
     return 'Obat tidak ditemukan'
   } else if (!warna && !bentuk) return resultPenyakit
 
+
   if (resultPenyakit.length === 0) resultPenyakit = listObat
+
 
   if (warna) {
     for (let i = 0; i < resultPenyakit.length; i++) {
@@ -264,6 +269,7 @@ function filterObatSpesifikasi(obat) {
     return resultWarna
   }
 
+
   if (resultWarna.length === 0) resultWarna = listObat
 
   if (bentuk) {
@@ -280,6 +286,7 @@ function filterObatSpesifikasi(obat) {
 
   return resultBentuk
 }
+
 
 function filterObat(obat) {
   if (obat.inskripsi) {
