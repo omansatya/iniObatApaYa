@@ -1,79 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <div class="form-body">
-        <div class="row">
-            <div class="form-holder">
-                <div class="form-content">
-                    <div class="form-items">
-                        <h3>Penambahan Obat</h3>
-                        <p>Isi Data dibawah ini</p>
-                        <form class="requires-validation" novalidate>
-                            <div class="col-md-12">
-                                Nama Obat
-
-                                <input class="form-control" type="text" name="obat" placeholder="Nama Obat" required>
-                            </div>
-
-                            <div class="col-md-12">
-                                Jenis Obat
-
-                                <input class="form-control" type="text" name="JenisObat" placeholder="Jenis Obat"
-                                    required
-                            </div>
-
-                            <div class="col-md-12">
-                                Index Obat
-
-                                <input class="form-control" type="text" name="IndexObat" placeholder="Index Obat"
-                                    required>
-                            </div>
-
-                            <div class="col-md-12">
-                                Bentuk Obat
-
-                                <input class="form-control" type="text" name="BentukObat" placeholder="Bentuk Obat"
-                                    required>
-                            </div>
-
-                            <div class="col-md-12">
-                                Warna Obat
-
-                                <input class="form-control" type="text" name="WarnaObat" placeholder=" Warna Obat"
-                                    required>
-                            </div>
-
-                            <div class="col-md-12">
-                                Manfaat Obat
-                                <input class="form-control" type="text" name="ManfaatObat" placeholder=" Manfaat Obat"
-                                    required>
-                            </div>
-
-                            <label class="gambar"> Gambar </label>
-                            <input type="file" class="btn btn-secondary btn-lg" name="gambar" id="gambar "></input>
-
-                            <br>
-
-
-                            <button id="tambahObatButton" type="button" class="btn btn-primary btn-lg">Confirm</button>
-
-                        </form>
-                    </div>
-                </div>
+  <body>
+    <div class="container p-4 m-5">
+      <div class="row">
+        <div class="col-8 justify-content-center">
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Nama obat</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Inskripsi</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Obat digunakan untuk penyakit</label>
+                <input type="text" class="form-control" />
+              </div>
             </div>
+            <div class="form-group">
+              <label>Manfaat obat</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label">Usia pengguna obat</label>
+              <input type="text" class="form-control" />
+            </div>
+
+            <div class="row">
+                <div class="form-group col-6">
+                    <label for="inputState">Bentuk</label>
+                    <select class="form-control">
+                      <option>Kapsul</option>
+                      <option>Bundar</option>
+                      <option>Elips</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-6">
+                    <label for="inputState">Warna</label>
+                    <select class="form-control">
+                      <option>Putih</option>
+                      <option>Kuning</option>
+                      <option>Biru</option>
+                      <option>Merah</option>
+                    </select>
+                  </div>
+            </div>
+
+            <div class="form-group mt-3  mb-3">
+                <input type="file" class="form-control-file">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
         </div>
+      </div>
     </div>
-
     <script src="indexPembuatObat.js"></script>
-</body>
-
+  </body>
 </html>
