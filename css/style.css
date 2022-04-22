@@ -2,6 +2,7 @@
 
 *,
 body {
+
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
@@ -11,11 +12,11 @@ body {
 
 html,
 body {
+
     height: 100%;
     background-color: #168fdf;
     overflow: hidden;
 }
-
 
 .form-holder {
     display: flex;
@@ -24,50 +25,52 @@ body {
     align-items: center;
     text-align: center;
     min-height: 100vh;
+
 }
 
 .form-holder .form-content {
-    position: relative;
-    text-align: center;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    align-items: center;
-    padding: 60px;
+  position: relative;
+  text-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 60px;
 }
 
 .form-content .form-items {
-    border: 3px solid #fff;
-    padding: 40px;
-    display: inline-block;
-    width: 100%;
-    min-width: 540px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    text-align: left;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+  border: 3px solid #fff;
+  padding: 40px;
+  display: inline-block;
+  width: 100%;
+  min-width: 540px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-align: left;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .form-content h3 {
-    color: #fff;
-    text-align: left;
-    font-size: 28px;
-    font-weight: 600;
-    margin-bottom: 5px;
+  color: #fff;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .form-content h3.form-title {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .form-content p {
+
     color: #fff;
     text-align: left;
     font-size: 17px;
@@ -106,12 +109,13 @@ body {
 }
 
 .gambar {
-    width: 100%;
-    padding: 9px 20px;
-    text-align: left;
-    border: 0;
-    outline: 0;
+  width: 100%;
+  padding: 9px 20px;
+  text-align: left;
+  border: 0;
+  outline: 0;
 }
+
 
 
 .btn-primary {
@@ -119,39 +123,42 @@ body {
     outline: none;
     border: 0px;
     box-shadow: none;
+
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
+
     background-color: #495056;
     outline: none !important;
     border: none !important;
     box-shadow: none;
+
 }
 
 .form-content textarea {
-    position: static !important;
-    width: 100%;
-    padding: 15px 30px;
-    border-radius: 6px;
-    text-align: left;
-    background-color: #fff;
-    border: 0;
-    font-size: 15px;
-    font-weight: 300;
-    color: #8D8D8D;
-    outline: none;
-    resize: none;
-    height: 120px;
-    -webkit-transition: none;
-    transition: none;
-    margin-bottom: 25px;
-
+  position: static !important;
+  width: 100%;
+  padding: 15px 30px;
+  border-radius: 6px;
+  text-align: left;
+  background-color: #fff;
+  border: 0;
+  font-size: 15px;
+  font-weight: 300;
+  color: #8d8d8d;
+  outline: none;
+  resize: none;
+  height: 120px;
+  -webkit-transition: none;
+  transition: none;
+  margin-bottom: 25px;
 }
 
 .form-content textarea:hover,
 .form-content textarea:focus {
+
     border: 0;
     background-color: #ebeff8;
     color: #8D8D8D;
@@ -169,3 +176,4 @@ body {
 .valid-feedback {
     color: #2acc80;
 }
+
