@@ -1,78 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <section class="vh-100" style="background-color: #f7f2e2;">
-        <div class="container py-5 h-100">
-          <div class="row d-flex justify-content-center  h-100">
-            <div class="col col-xl-10">
-              <div class="card" style="border-radius: 1rem;">
-                <div class="row g-0">
-                    <form action="">
-                        <div class="row g-2">
-                            <div class="col-md">
-                              <div class="form-floating">
-                                  <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" >
-                                  <label for="floatingSelectGrid">isikan kode Obat</label>
-                                
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <div class="form-floating">
-                                  <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" >
-                                  <label for="floatingSelectGrid">masukkan fungsi Obat</label>
-                                
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <div class="form-floating">
-                                <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-                                  <option selected>Open this select menu</option>
-                                  <option value="1">eliptical</option>
-                                  <option value="2">capsul</option>
-                                  <option value="3">round</option>
-                                  <option value="4">egg-shape</option>
-                                </select>
-                                <label for="floatingSelectGrid">Works with selects</label>
-                              </div>
-                            </div>
-                            <div class="col-md">
-                                <div class="form-floating">
-                                  <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1">white</option>
-                                    <option value="2">Yellow</option>
-                                    <option value="3">Green</option>
-                                    <option value="4">Blue</option>
-                                  </select>
-                                  <label for="floatingSelectGrid">Works with selects</label>
-                                </div>
-                              </div>
-                          </div>
-                    </form>
-                    
-                    <form>
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                          </div>
 
-                          
-                    </form>
-                </div>
-              </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="d-flex justify-content- align-items-start" style="background-image: url('img/banner.jpg');
+    height: 100vh">
+    <div class="container-lg">
+      <img src="img/judul.png" class="center">
+      <form action="">
+        <div class="row g-2">
+          <div class="col-md">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com">
+              <label for="floatingSelectGrid">isikan kode Obat</label>
+
+            </div>
+
+          </div>
+          <div class="col-md">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com">
+              <label for="floatingSelectGrid">masukkan fungsi Obat</label>
+
             </div>
           </div>
+
+          <div class="col-md">
+            <div class="form-floating">
+              <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                <option selected></option>
+                <option value="1">elips</option>
+                <option value="2">Kapsul</option>
+                <option value="3">Bulat</option>
+              </select>
+              <label for="floatingSelectGrid">Bentuk Obat</label>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="form-floating">
+              <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                <option selected></option>
+                <option value="1">Putih</option>
+                <option value="2">Kuning</option>
+                <option value="3">Merah</option>
+                <option value="4">Biru</option>
+              </select>
+              <label for="floatingSelectGrid">Warna obat</label>
+            </div>
+          </div> <br>
+
+          <div class="h-100 d-flex flex-row justify-content-center align-items-start">
+            <a href="index.html" class="btn btn-primary me-auto">HomePage</a>
+            <button type="button" class="btn btn-secondary me-auto">Cek obat</button>
+            <button type="button" class="btn btn-secondary ">Cek Lagi</button>
+          </div><br>
+
+          <div class="card me-auto" style="width: 18rem;">
+            <img class="card-img-top" src="src/amoxicillin.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">deskripsi obat dan fungsinya</p>
+            </div>
+          </div>
+          <div class="card me-auto" style="width: 18rem;">
+            <img class="card-img-top" src="src/aspirin.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">deskripsi obat dan fungsinya</p>
+            </div>
+          </div>
+          <div class="card me-auto" style="width: 18rem;">
+            <img class="card-img-top" src="src/captopril.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">deskripsi obat dan fungsinya</p>
+            </div>
+          </div>
+
+
         </div>
-      </section>    
+      </form>
+    </div>
+
+  </div>
 </body>
+
+
 </html>
